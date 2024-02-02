@@ -1,0 +1,164 @@
+/* Style for the pop-up button */
+.popup-button-desert {
+    background-color: #fff45d;
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-top: -50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-weight: bold;
+    left: 50%; /* Move the button to the horizontal center */
+  right: 50%; /* Center horizontally and move it upwards */
+  bottom: 10px; /* Adjust the distance from the bottom */
+  }
+  .popup-button-rainforest {
+  background-color: #24ff54;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin-top: -50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  font-weight: bold;
+  left: 50%; /* Move the button to the horizontal center */
+  right: 50%; /* Center horizontally and move it upwards */
+  bottom: 10px; /* Adjust the distance from the bottom */
+  }
+  .popup-button-arctic {
+  background-color: #5bffe4;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin-top: -50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  font-weight: bold;
+  left: 50%; /* Move the button to the horizontal center */
+  right: 50%; /* Center horizontally and move it upwards */
+  bottom: 10px; /* Adjust the distance from the bottom */
+  }
+  .popup-button-ocean {
+  background-color: #4e5afc;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin-top: -50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  font-weight: bold;
+  left: 50%; /* Move the button to the horizontal center */
+  right: 50%; /* Center horizontally and move it upwards */
+  bottom: 10px; /* Adjust the distance from the bottom */
+  }
+  .popup-button-grassland {
+  background-color: #21d330;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin-top: -50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  font-weight: bold;
+  left: 50%; /* Move the button to the horizontal center */
+  right: 50%; /* Center horizontally and move it upwards */
+  bottom: 10px; /* Adjust the distance from the bottom */
+  }
+  
+  
+  
+  
+  .popup-button-desert:hover, .popup-button-rainforest:hover, .popup-button-arctic:hover, .popup-button-ocean:hover, .popup-button-grassland:hover {
+    transform: scale(1.1);
+  }
+  .body-no-scroll {
+    overflow: hidden;
+  }
+  /* Style for the pop-up */
+  .popup {
+    display: none;
+    position: fixed;
+    bottom: 0; /* Start off-screen */
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, rgba(51, 51, 51, 0.9), rgba(102, 102, 102, 0.9)); /* Gradient from dark grey to light grey with 60% opacity */
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    overflow: auto;
+  }
+  .popup.show {
+    animation: slideInFromBottom 0.5s ease-in-out forwards;
+  }
+  @keyframes slideInFromBottom {
+  from {
+    bottom: -100%; /* Start off-screen */
+  }
+  to {
+    bottom: 0; /* Animate to the final position */
+  }
+  }
+  /* Style for the pop-up content */
+  .popup-content {
+     background: #fff;
+    
+    margin: 10% auto;
+    
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+    height: 110vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Style for the close button in the pop-up */
+  .close-popup{
+  position: relative; /* Add relative positioning for absolute child element */
+  color: #333; /* Darker color for better visibility */
+  float: right;
+  font-size: 32px; /* Slightly larger font size */
+  font-weight: bold;
+  cursor: pointer;
+  width: 40px; /* Set a fixed width to make it circular */
+  height: 40px; /* Set a fixed height to make it circular */
+  text-align: center; /* Center the X within the circle */
+  line-height: 40px; /* Vertically center the X within the circle */
+  border: 2px solid #333; /* Circular border with a darker color */
+  border-radius: 50%; /* Create a circular border */
+  background: white; /* Fill the circle with white color */
+  overflow: hidden; /* Hide overflowing content */
+  transition: width 0.3s; /* Add a smooth transition for the width property */
+  }
+  
+  
+  
+  .close-popup:hover {
+  transform: scale(1.1);
+  }
+  
+  
+  
+  /* Style the popup images */
+  .popup-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 50px; /* Add spacing between images */
+  }
+  
+  /* Style the container for the popup images */
+  .image-popup-container {
+   
+    display: flex;
+    flex-direction: column; /* Display images in a column */
+    align-items: center; /* Center horizontally within the container */
+    justify-content: center; /* Center vertically within the container */
+    height: 100%; /* Adjust the height as needed */
+    width: 100%;
+    padding: 20px;
+  }
+  

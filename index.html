@@ -1,0 +1,1611 @@
+<!DOCType html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubitat.io</title>
+    <link rel="icon" href="https://i.ibb.co/wL1fFBm/LOGO.png" alt="LOGO" sizes="32x32">
+
+        
+    <!-- CSS Source Codes -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="pop_up.css">
+    <link rel="stylesheet" href="animalContent.css">
+    <link rel="stylesheet" href="text_animation.css">
+    <link rel="stylesheet" href="topography.css">
+    <link rel="stylesheet" href="quizz.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/69b5f74b8c.js" crossorigin="anonymous"></script>
+    <script src="on&off.js"></script>
+     
+
+    <!--- google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700;800;900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  </head>
+<body>
+  <div class="intro">
+      <img src="assets/images/LOGO.png" alt="Hubitat Logo">
+      <h1 class="logo">
+       <span class="logo-parts">H</span> 
+       <span class="logo-parts">U</span> 
+       <span class="logo-parts">B</span> 
+       <span class="logo-parts">I</span> 
+       <span class="logo-parts">T</span>
+       <span class="logo-parts">A</span> 
+       <span class="logo-parts">T</span>  
+      </h1>
+      <p>Explore the Animal kingdom at the comfort of your home.</p>
+  </div>
+  
+    <!-- SCROLL UP BUTTON -->
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+
+
+    <!-- HEADER  -->
+    <section id="home">
+        <header id="head">
+            <img src="assets/images/LOGO.png" class = "logo">
+        <a href = "#" class = "hubitat">HUBITAT</a>
+        <div class = "menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href = "#home">Home</a>
+            <a href = "#card">Habitats</a>
+            <a href = "#animal">Animals</a>
+            <a href = "#instructor">About Us</a>
+        </div>
+        <div class="btn">
+            <i class="fa-solid fa-paw menu-btn"></i>
+        </div>
+        </header>
+    </section>
+
+    <section class="showcase">
+      <div class="overlay"></div>
+      <div class="container">
+          <div id="slide">
+              <div class="item" style="background-image: url(assets/images/grassland_t.jpg);"></div>
+              <div class="item" style="background-image: url(assets/images/ocean_t.jpg);"></div>
+              <div class="item" style="background-image: url(assets/images/arctic_t.jpg);"></div>
+              <div class="item" style="background-image: url(assets/images/rainforest_t.jpg);"></div>
+              <div class="item" style="background-image: url(assets/images/desert_t.png);"></div>
+          </div>
+          <div class="buttons">
+              <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+              <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+          </div>
+      </div>
+      <script src="slider.js"></script>
+      <div class="text">
+          <h2>Never Stop To</h2>
+          <h3>Discover Wildlife in your desk</h3>
+          <p>HUBitat, a digital haven for ecosystem enthusiasts that serves as a guide of knowledge and appreciation for the delicate balance of life on our planet. With an extensive array of articles and interactive tools, HUBitat offers a platform for understanding, conserving, and celebrating of our ecosystems.</p>
+          <a href="#card">Explore</a>
+      </div>
+      <ul class="social">
+          <li><a href="#"><img src="assets/images/facebook.png" alt="Facebook"></a></li>
+          <li><a href="#"><img src="assets/images/twitter.png" alt="Twitter"></a></li>
+          <li><a href="#"><img src="assets/images/instagram.png" alt="Instagram"></a></li>
+      </ul>
+  </section>
+
+    <!-- Card Section -->
+    <section id="card" class="card_html">
+      
+      
+      <div class="card_container">
+          <div class="grid-bg ba-grid anim reveal">
+            <div class="inner">
+              <h1 id ="Explore">EXPLORE THE WORLD</h1>
+
+       
+          <div class="row">
+              <!-- Card 1 -->
+              <div class="wrapper">
+                  <div class="card">
+                      <img src="assets/images/desert_card.png">
+                      <div class="info">
+                          <h2>Desert</h2>
+                          <p>A barren area of landscape where little precipitation occurs</p>
+                          <a href="#dessert" class="btn">Read More</a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="wrapper">
+                  <div class="card">
+                      <img src="assets/images/rainforest_card.png">
+                      <div class="info">
+                          <h2>Rain Forest</h2>
+                          <p>Rainforests are forests characterized by a closed and continuous canopy.</p>
+                          <a href="#rainforest" class="btn">Read More</a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="wrapper">
+                  <div class="card">
+                      <img src="assets/images/arctic_card.png">
+                      <div class="info">
+                          <h2>Arctic Region</h2>
+                          <p>Arctic, northernmost region of Earth, centered on the North Pole</p>
+                          <a href="#arctic" class="btn">Read More</a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Card 4 -->
+              <div class="wrapper">
+                  <div class="card">
+                      <img src="assets/images/aqua_card.png">
+                      <div class="info">
+                          <h2>Ocean</h2>
+                          <p>More than half of Earth's surface is covered in salty ocean or sea water.</p>
+                          <a href="#ocean" class="btn">Read More</a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Card 5 -->
+              <div class="wrapper">
+                  <div class="card">
+                      <img src="assets/images/grassland_card.png">
+                      <div class="info">
+                          <h2>GrassLand</h2>
+                          <p>The grassland biome is made up of large open areas of grasses.</p>
+                          <a href="#grassland" class="btn">Read More</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+</section>
+
+     <!-- Desert Info Section -->
+     <div id = "animal" class="desert-container">
+      <section class="info_bg">
+          <h3 id="dessert"></h3>
+          <div class="desertpic ">
+              <div class="about-text">
+                <div class="title reveal">
+                  <h2 style="color: yellow">Desert Habitat</h2>
+                  <h5 style="color: white">Beyond The Dunes</h5>
+                  </div>
+                  <p class="reveal" style="color: wheat;">Desert, any large, extremely dry area of land with sparse vegetation. 
+                    It is one of Earth’s major types of ecosystems, supporting a community of distinctive plants and animals specially adapted to the harsh environment.</p>
+                    <p class="reveal" style="color: wheat;">Desert environments are so dry that they support only extremely sparse vegetation; trees are usually absent and, under normal climatic conditions, shrubs or herbaceous plants provide only very incomplete ground cover.
+                    There are two types of desert; hot and cold. The hot desert is the typical desert everyone knows, full of sand and and extremely hot, on the other hand cold desert is the opposite in terms of temperature. </p> 
+                    <p class="reveal" style="color: wheat;">DID YOU KNOW?! Antartica is a form of dessert it is in fact the largest cold desert on Earth.</p>
+              <!-- Pop-up Button -->
+    <button onclick="openDesertPopup()" class="popup-button-desert">Desert Animals Info</button>
+                </div>
+          </div>
+      </section>
+  </div>
+  
+
+  <div class="Desert_animal-container">
+ 
+    <div class="desert_learnmore">
+      <h1 class ="text_desert">
+        
+        LEARN MORE
+      </h1>
+      </div>
+    
+
+
+
+
+    <!-- Desert Animal Pop-up -->
+<div id="desert-animal-popup" class="popup">
+  <span class="close-popup" onclick="closeDesertPopup()">&times;</span>
+  <div class="desert-popup-content">
+      
+      <h2 style="color: yellow">Desert Animals Information</h2>
+      <div class="book">
+        <input type="checkbox" id="d1">
+        <input type="checkbox" id="d2">
+        <input type="checkbox" id="d3">
+        <input type="checkbox" id="d4">
+        <input type="checkbox" id="d5">
+        <div id="cover"><img src="assets/images/DESERTANIMALS/camel.jpg"></div>
+        <div class="flip-book">
+            <div class="flip" id="a1">
+                <div class="back">
+                    <img src="assets/images/DESERTANIMALS/cat.jpg">
+                    <div class="button">
+                      <label class="Back-btn" for="d1">Back</label>
+                    </div>
+                </div>
+                <div class="front">
+                    <h2>Arabian Camel</h2>
+                    <p>
+                      <id style="color: rgb(113, 255, 113);">Common Name:</id> Arabian Camel (Dromedaries)<br>
+                      <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Camelus dromedarius<br>
+                      <id style="color: rgb(113, 255, 113);">Type: Mammal</id><br>
+                      <id style="color: rgb(113, 255, 113);">Diet:</id> Herbivore<br>
+                      <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 50 years above<br>
+                      <id style="color: rgb(113, 255, 113);">Size:</id> Over 7 feet tall at the hump<br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">What is an Arabian Camel?</id><br><br>
+                      - Arabian camels, also known as dromedaries, have only one hump, but they employ it to great effect. The hump stores up to 80 pounds of fat, which a camel can break down into water and energy when sustenance is not available. These humps give camels their legendary ability to travel up to 100 desert miles without water. Camels rarely sweat, even in desert temperatures that reach 120°F, so when they do take in fluids they can conserve them for long periods of time. 
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                      <br><br>
+                      - Their nostrils close to keep sand at bay, and they have bushy eyebrows and two rows of long eyelashes to protect their eyes. Large, tough lips enable them to pick at dry and thorny desert vegetation. Big, thick footpads help them navigate the rough rocky terrain and shifting desert sands.
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                      <br><br>
+                      - Their estrous cycle is about 13-40 days, and receptivity usually last between three and four days. Gestation is 360-440 days, resulting in one or two offspring. Camels can birth up to two offspring every two years, but more than one is rare. Camels reproduce once every two years.
+                    </p>
+                    <label class="next-btn" for="d1">Next</label>
+                </div>
+            </div>
+
+                <div class="flip" id="a2">
+                <div class="back">
+                    <img src="assets/images/DESERTANIMALS/lark.JPG">
+                    <div class="button">
+                      <label class="Back-btn" for="d2">Back</label>
+                    </div>
+                </div>
+                <div class="front">
+                    <h2>Desert Cat</h2>
+                    <p>
+                      <id style="color: rgb(113, 255, 113);">Common Name:</id> Desert Cat<br>
+                      <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Felis margarita<br>
+                      <id style="color: rgb(113, 255, 113);">Type:</id> Mammal<br>
+                      <id style="color: rgb(113, 255, 113);">Diet:</id> Carnivore<br>
+                      <id style="color: rgb(113, 255, 113);">Average Life Span:</id>  13 years<br>
+                      <id style="color: rgb(113, 255, 113);">Size:</id> 10-12 inches<br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">What is a Desert Cat?</id><br><br>
+                      - Sand cats eat primarily small rodents, occasionally hares, birds, spiders, insects and reptiles. They are fearless snake hunters—their prey can include venomous vipers and other snakes. Living in a relatively desolate habitat, sand cats are opportunistic feeders out of necessity.
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                      <br><br>
+                      - Sand cats have a broad head with large eyes and low-set ears. They have short limbs. The tail, which can account for about half of the head-body length, features two or three rings and a black tip. Sand cats are mainly nocturnal and crepuscular animals, avoiding the intense heat of the desert by hiding in burrows. They rely on their ability to dig to create shelter from extreme weather. In human care, sand cats can live to be 13 years old. Lifespan in the wild is unknown.
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                      <br><br>
+                      - Reproduction among sand cats depends on where they live; individuals from the Sahara will begin breeding in January and end in April. Those occurring in Turkmenistan will begin breeding in April, and in Pakistan the season will last from September to October. In human care, this species can breed more than once a year.
+                    </p>
+                    <label class="next-btn" for="d2">Next</label>
+                </div>
+            </div>
+
+               
+                <div class="flip" id="a3">
+                <div class="back">
+                    <img src="assets/images/DESERTANIMALS/rat.jpg">
+                    <div class="button">
+                      <label class="Back-btn" for="d3">Back</label>
+                    </div>
+                </div>
+                <div class="front">
+                    <h2>Desert Lark</h2>
+                    <p>
+                      <id style="color: rgb(113, 255, 113);">Common Name:</id> Desert Lark<br>
+                      <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Ammomanes deserti<br>
+                      <id style="color: rgb(113, 255, 113);">Type:</id> Bird<br>
+                      <id style="color: rgb(113, 255, 113);">Diet:</id> Herbivore <br>
+                      <id style="color: rgb(113, 255, 113);">Average Life Span:</id>  4-6 years in the wild<br>
+                      <id style="color: rgb(113, 255, 113);">Size:</id> 16 to 17 cm <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">What is a Desert Lark?</id><br><br>
+                      - The desert lark eats seeds and insects, the latter especially in the breeding season. This is a small lark at 16–17 cm in length. It is sand-coloured above and pale pinkish grey below, with a thick yellow-based bill. The tail is reddish brown with a diffuse dark terminal band.
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                      <br><br>
+                      - Desert Lark is medium-sized, robust lark with relatively large head, rather heavy bill (size changes geographically), longish wings with long primary projection , rather short tail; hind claw short (5–8 mm), slightly curved.
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                      <br><br>
+                      - The clutch is 1-5 eggs and these are laid at different times in various parts of its range, e.g. January–February in the south and March–April in the north.
+                    </p>
+                    <label class="next-btn" for="d3">Next</label>
+                </div>
+            </div>
+
+             <div class="flip" id="a4">
+                <div class="back">
+                    <img src="assets/images/DESERTANIMALS/dik.jpg">
+                    <div class="button">
+                      <label class="Back-btn" for="d4">Back</label>
+                    </div>
+                </div>
+                <div class="front">
+                    <h2>Desert Kangaroo Rat</h2>
+                    <p>
+                      <id style="color: rgb(113, 255, 113);">Common Name:</id> Desert Kangaroo Rat<br>
+                      <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Dipodomys deserti<br>
+                      <id style="color: rgb(113, 255, 113);">Type:</id> Mammal<br>
+                      <id style="color: rgb(113, 255, 113);">Diet:</id> Herbivore<br>
+                      <id style="color: rgb(113, 255, 113);">Average Life Span:</id>  13 years<br>
+                      <id style="color: rgb(113, 255, 113);">Size:</id> 4.5 ounces<br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">What is a Desert Kangaroo Rat?</id><br><br>
+                      - The Desert kangaroo rats are adorable animals with noticeably large hind legs, helping them escape from predators. The Desert kangaroo rat resembles a tiny kangaroo, and is a size of a mouse. The species is so called due to hopping like a kangaroo. This animal is able to live in extremely dry conditions, getting all required moisture from dry seeds it consumes. It has pouches on both sides of its mouth, where it stores food.
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                      <br><br>
+                      - Kangaroo rats have long tails and larger hind feet with only four toes. Their eyes are very large, while their ears are incredibly small. Kangaroo Rats are small, weighing up to 4.5 ounces, which is about the weight of granola bar. The life expectancy of the Desert kangaroo rats in the wild in unknown, but those in captivity usually live 5.5 - 8 years.
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                      <br><br>
+                      - Females went through estrus at three-week intervals and could mate throughout the year. Although able to mate all year, they had an irregular breeding season when most mating took place. Females with pouched joeys had been found between June and December. Young were born very undeveloped, as is typical of marsupials.
+                    </p>
+                    <label class="next-btn" for="d4">Next</label>
+                </div>
+            </div>
+
+             <div class="flip" id="a5">
+                <div class="back">
+                    <img src="assets/images/desert_card.png">
+                    <div class="button">
+                      <label class="Back-btn" for="d5">Back</label>
+                    </div>
+                </div>
+                <div class="front">
+                    <h2>Dik-dik</h2>
+                    <p>
+                      <id style="color: rgb(113, 255, 113);">Common Name:</id> Dik-dik<br>
+                      <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Madoqua<br>
+                      <id style="color: rgb(113, 255, 113);">Type:</id> Mammal<br>
+                      <id style="color: rgb(113, 255, 113);">Diet:</id> Herbivore <br>
+                      <id style="color: rgb(113, 255, 113);">Average Life Span:</id> Males (16.5 years) Female (18.4 years)<br>
+                      <id style="color: rgb(113, 255, 113);">Size:</id> 14-18 inches tall<br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">What is a Dik-dik?</id><br><br>
+                      - Dik-diks eat a diet of leaves, shoots, fruit and berries, but hardly any grass! Dik-diks live in shrublands and savannas of eastern Africa - they can live in many conditions as long as there are plenty of edible plants and lots of cover!
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                      <br><br>
+                      - Dik-diks are tiny antelopes that vary in color depending on their habitat but are typically yellowish-gray to reddish-brown on its back and grayish-white on their belly. Males have horns that are ringed and stout at the base, which are often concealed by a tuft of hair on their forehead.
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                      <br><br>
+                      - Female dik-diks are sexually mature at 6 months of age and males are ready to reproduce at 12 months. Males and females form permanently mated pairs that occupy an area anywhere from 5 to 30 hectares (12.5-75 acres)
+                    </p>
+                    <label class="next-btn" for="d5">Next</label>
+                </div>
+            </div>
+            </div>
+            </div>
+         
+        <p class="endingpara" style="color: white;">These animals have various unique features and adaptations that help them survive in their respective environments.</p>
+  </div>
+
+  <!-- Button to scroll back to the top -->
+  <button data-popup-id="desert-animal-popup" class="popup-button-desert">SCROLL UP</button>
+</div>
+    
+      <div class="container reveal">
+
+        
+          <div class="image-padding-size">
+              <div class="img_container grid"><!--container for image gallery-->
+                    <div id="Camel" class="img_item row-2 col-3"><!--block of one image. contain image and title.-->
+                      <a href="https://en.wikipedia.org/wiki/Camel"><img src="assets/images/DESERTANIMALS/CAMEL2.jpg" alt="Camel"><h3>Arabian Camel</h3></a>
+                    </div>
+              
+                    <div id="Dik-Dik" class="img_item row-1 col-2"><a href=""><img src="assets/images/DESERTANIMALS/dik2.jpg" alt="Dik-Dik"><h3>Dik-Dik</h3></a>
+                    </div>
+              
+                    <div id="DesertLark" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Desert_lark"><img src="assets/images/DESERTANIMALS/lark2.jpg" alt="Desert Lark"><h3>Desert Lark</h3></a>
+                    </div>
+              
+                    <div id="DesertCat" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Sand_cat"><img src="assets/images/DESERTANIMALS/cat2.jpg" alt="DesertCat"><h3>Desert Cat</h3></a>
+                   </div>
+                   
+                     <div id="DesertKangarooRat" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Desert_kangaroo_rat"><img src="assets/images/DESERTANIMALS/rat2.jpg" alt="Desert kangaroo Rat"><h3>Desert Kangaroo Rat</h3></a>
+               </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Script to add event listeners -->
+<script src="popup.js"> </script>
+
+  <!-- Rain Forest Info Section -->
+  <div id = "rainforest" class="rainforest-container">
+    <section class="RainForest_bg">
+        
+        <div class="rainforest-pic">
+            <div class="about-text">
+              <div class="title reveal">
+                <h2 style="color: green">Rainforest Habitat</h2>
+                <h5 style="color: white">Into The Green Abyss</h5>
+                </div>
+                <p class="reveal" style="color: rgb(113, 255, 113);">A rainforest is a lush and dense forest rich with biodiversity, characterized by a high annual rainfall and consistently high humidity. Rainforests are often referred to as the "lungs of the Earth" because of their vital role in producing oxygen and absorbing carbon dioxide. </p>
+                <p  class="reveal" style="color: rgb(113, 255, 113);">Not only do they provide air, water, medicine, food, and shelter to a multitude of living beings, they are also one of our best natural defenses against climate change because of their capacity to absorb greenhouse gases from the atmosphere. </p>
+                  <p  class="reveal" style="color: rgb(113, 255, 113);">DID YOU KNOW?! Rainforests cover less than 3 percent of the planet and the world's largest rainforest is the Amazon rainforest.</p>
+             <!-- Pop-up Button -->
+      <button onclick="openRainforestPopup()" class="popup-button-rainforest">Rainforest Animals Info</button>
+              </div>
+        </div>
+    </section>
+  </div>
+  
+  <div class="rainforest-animal-container">
+    <div class="rainforest_learnmore">
+      <h1 class ="text_rainforest">
+        LEARN MORE
+      </h1>
+      </div>
+  
+    <div class="animal-info">
+      
+      <div id="rainforest-animal-popup" class="popup">
+        <span class="close-popup" onclick="closeRainforestPopup()">&times;</span>
+       <div class="Rainforestpopup-content">
+      <h2 style="color: #F5F5DC;">Rainforest Animals Information</h2>
+      <div class="book">
+          <input type="checkbox" id="r1">
+          <input type="checkbox" id="r2">
+          <input type="checkbox" id="r3">
+          <input type="checkbox" id="r4">
+          <input type="checkbox" id="r5">
+          <div id="cover"><img src="assets/images/RAINFANIMALS/okapi.jpg"></div>
+          <div class="flip-book">
+              <div class="flip" id="b1">
+                  <div class="back">
+                      <img src="assets/images/RAINFANIMALS/horny.jpg">
+                      <div class="button">
+                        <label class="Back-btn" for="r1">Back</label>
+                      </div>
+                  </div>
+                  <div class="RainForestFront">
+                      <h2>Okapi</h2>
+                      <p>
+                        <id style="color: rgb(113, 255, 113);">Common Name:</id> Okapi<br>
+                        <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Okapia johnstoni <br>
+                        <id style="color: rgb(113, 255, 113);">Type:</id> Mammals<br>
+                        <id style="color: rgb(113, 255, 113);">Diet:</id> Herbivore<br>
+                        <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 20 years<br>
+                        <id style="color: rgb(113, 255, 113);">Size:</id> Length, 8feet; Height, 5 Feet<br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">What is an Okapi?</id><br><br>
+                        - Known as the “forest giraffe,” the okapi looks like a cross between a deer and a zebra. Nevertheless, it’s the giraffe's only living relative. The okapi is native to the Ituri Rainforest in the Democratic Republic of Congo—the only place where it can be found in the wild—and has thick, oily fur to stay dry in the rain. It also has scent glands on the bottom of its hooves that help mark its territory. Except for the tips, the okapi’s short horns are covered in skin.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                        <br><br>
+                        - The okapi can blend into its surroundings thanks to the brown and white stripes on its rump, which mimic the appearance of streaks of sunlight coming through the trees. Its plant-based diet consists of fruits, buds, leaves, twigs, and other vegetation. Just like the giraffe and cow, the okapi has four stomachs that aid with digesting tough plants. An okapi consumes between 45 and 60 pounds of food each day, including riverbed clay for minerals and salt. The thick oily fur of the okapi is useful to adapt to a warm climate, but it does not have the thick insulating layer of fat essential to animals living in extreme cold temperatures.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                        <br><br>
+                        - Okapis will breed throughout the year, with estrus occurring every 15 days with no particular breeding season. The Male and female okapi come together briefly to mate, then go their separate ways. Females retreat deep into the forest to give birth. A mother okapi usually gives birth to a single offspring at a time. For the first two months of life, that offspring will remain hidden in a nest of foliage. The mother will return often to allow it to nurse. She will wean her offspring at about 6 months of age. Okapi reaches full size at about age 3.
+                      </p>
+                      <label class="next-btn" for="r1">Next</label>
+                  </div>
+              </div>
+              <!-- Add similar code for other flip elements (p2, p3, p4, p5) -->
+  
+                  <div class="flip" id="b2">
+                  <div class="back">
+                      <img src="assets/images/RAINFANIMALS/frog.jpg">
+                      <div class="button">
+                        <label class="Back-btn" for="r2">Back</label>
+                      </div>
+                  </div>
+                  <div class="RainForestFront">
+                      <h2>Hornbill</h2>
+                      <p>
+                        <id style="color: rgb(113, 255, 113);">Common Name:</id> Hornbills<br>
+                        <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Bucerotidae <br>
+                        <id style="color: rgb(113, 255, 113);">Type:</id> Birds<br>
+                        <id style="color: rgb(113, 255, 113);">Diet:</id> Omnivore<br>
+                        <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 35 years<br>
+                        <id style="color: rgb(113, 255, 113);">Size:</id> 12 inches to 3 feet<br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">What is a Hornbill?</id><br><br>
+                        - Hornbills are tropical birds named for their unusually large, curved bills, some of which are adorned with a large casque, a hollow structure made from keratin. Casques, which vary in size and color, serve a number of functions, such as attracting mates and resonating sound, making the birds’ territorial calls more audible. Most of the 62 hornbill species spend their time in the trees, except for the family Bucorvidae, the ground-dwelling hornbills. These omnivores may dine on anything from fruit and seeds to insects, reptiles, amphibians, and small mammals.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                        <br><br>
+                        - The most distinctive feature of the hornbills is the heavy bill, supported by powerful neck muscles as well as by the fused vertebrae. The large bill assists in fighting, preening, constructing the nest, and catching prey. Hornbills primarily (70%) eat fat-rich and sugar-rich fruits, but they also feed on small mammals, birds, eggs, amphibians, reptiles and insects. 
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                        <br><br>
+                        - There are many courtship behaviors, such as clattering bills together or alternating calls in a sort of duet. Many hornbill species are considered monogamous, meaning neither the male nor the female mates with any other birds. Once mated, most hornbill pairs will find an existing tree cavity, and the male will seal the female inside using its own dung mixed with soil. Protected from predators in this private suite, she’ll generally lay two eggs, which will incubate for about 42 days. Usually, only one chick will hatch or, if both emerge, only one chick will usually survive. Chicks will then fledge after roughly 80 days.
+                      </p>
+                      <label class="next-btn" for="r2">Next</label>
+                  </div>
+              </div>
+                 
+                  <div class="flip" id="b3">
+                  <div class="back">
+                      <img src="assets/images/RAINFANIMALS/capibara.jpg">
+                      <div class="button">
+                        <label class="Back-btn" for="r3">Back</label>
+                      </div>
+                  </div>
+                  <div class="RainForestFront">
+                      <h2>Red-Eyed Tree Frog</h2>
+                      <p>
+                        <id style="color: rgb(113, 255, 113);">Common Name:</id> Red-Eyed Tree Frog<br>
+                        <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Agalychnis callidryas
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Type:</id> Amphibians<br>
+                        <id style="color: rgb(113, 255, 113);">Diet:</id> Carnivore<br>
+                        <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 5  years<br>
+                        <id style="color: rgb(113, 255, 113);">Size:</id> 1.5 to 2.75 inches<br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">What is a Red-Eyed Tree Frog?</id><br><br>
+                        - Red-eyed tree frogs, despite their conspicuous coloration, are not venomous. It is native to forests from Central America to north-western South America. This species is known for its bright coloration, namely its vibrant green body with blue and yellow stripes on the side. It has a white underside, brightly red and orange colored feet, and is named after its distinctive bright red eyes. Nocturnal carnivores, they hide in the rainforest canopy and ambush crickets, flies, and moths with their long, sticky tongues.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                        <br><br>
+                        - Red-eyed tree frogs are able to camouflage themselves to an extent, but giant red eyes and stunning blue and yellow colors on their sides make them stick out. If the frog is threatened by a predator, they use its dazzling colors as a way to disorient and startle its would-be foe. The frogs' footpads are shaped like small cups that help them climb trees. Their feet also have a mucus-like substance that allows them to suction their feet to tree branches. These frogs also have longer legs than other frogs, which helps them swim and climb trees easily. 
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                        <br><br>
+                        - Red-eyed tree frogs reproduce during the rainy season. Red-eyed tree frogs reproduce using a process called amplexus. The male climbs onto the female's back clasping tight and fertilizes the eggs as she releases them. The laying and fertilization of the eggs take place on a broad leaf above water. The newly hatched tadpoles fall into the water below where they develop into little froglets, this process takes about 75 days. They then leave the water and climb up trees to live as tree frogs.
+                        </p>
+                      <label class="next-btn" for="r3">Next</label>
+                  </div>
+              </div>
+  
+               <div class="flip" id="b4">
+                  <div class="back">
+                      <img src="assets/images/RAINFANIMALS/python.jpg">
+                      <div class="button">
+                        <label class="Back-btn" for="r4">Back</label>
+                      </div>
+                  </div>
+                  <div class="RainForestFront">
+                      <h2>Capybara</h2>
+                      <p>
+                        <id style="color: rgb(113, 255, 113);">Common Name:</id> Capybara<br>
+                        <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Hydrochoerus hydrochaeris
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Type:</id> Mammals<br>
+                        <id style="color: rgb(113, 255, 113);">Diet:</id> Herbivore<br>
+                        <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 8 years<br>
+                        <id style="color: rgb(113, 255, 113);">Size:</id>  4.6 feet long<br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">What is a Capybara?</id><br><br>
+                        - The capybara is the biggest rodent on Earth. These semi-aquatic mammals are found throughout much of northern and central South America, though a small invasive population has been seen in Florida. They’re closely related to guinea pigs and rock cavies, and more distantly related to chinchillas and agouti. Their pig-shaped bodies are adapted for life in bodies of water found in forests, seasonally flooded savannas, and wetlands. Their toes are partially webbed for paddling around, and their reddish to dark brown fur is long and brittle—perfect for drying out quickly on land. 
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                        <br><br>
+                        - As semi-aquatic creatures, capybaras have certain adaptations that allow them to spend more time in the water. Their eyes, ears, and nostrils are all positioned high up on their heads. This allows them to almost completely submerge themselves in the water, while still being able to breathe, see, hear, and smell. Capybaras' long hind legs and partially webbed feet help them to effortlessly propel themselves through the water. These webbed feet also help them on land to avoid sinking into the mud when walking on wetter ground. 
+                        <br>                    
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                        <br><br>
+                        - Capybaras' breeding season varies throughout the year depending on what habitat they live in and the availability of mates. The dominant males conspicuously guard females and when females are in estrus, the dominant male sniffs her frequently. The female estrus cycle occurs every 7.5 days and remains receptive for only 8 hours. Females usually have one litter of four to five young per year. The young can follow the mother and eat grass shortly after being born. Though considered to have a stable population overall, in some areas capybaras are severely threatened by people who hunt them for their skin.
+                        <br>
+                        </p>
+                      <label class="next-btn" for="r4">Next</label>
+                  </div>
+              </div>
+  
+               <div class="flip" id="b5">
+                  <div class="back">
+                      <img src="assets/images/rainforest_card.png">
+                      <div class="button">
+                        <label class="Back-btn" for="r5">Back</label>
+                      </div>
+                  </div>
+                  <div class="RainForestFront">
+                      <h2>Burmese Python</h2>
+                      <p>
+                        <id style="color: rgb(113, 255, 113);">Common Name:</id> Burmese Python<br>
+                        <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Python bivitattus
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Type:</id> Reptiles<br>
+                        <id style="color: rgb(113, 255, 113);">Diet:</id> Carnivore<br>
+                        <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 20 years<br>
+                        <id style="color: rgb(113, 255, 113);">Size:</id>  16 to 23 feet<br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">What is a Burmese Python?</id><br><br>
+                        - Native to the jungles and grassy marshes of Southeast Asia, Burmese pythons are among the largest snakes on Earth. The Burmese python is a dark-colored non-venomous snake with many brown blotches bordered by black down the back. They are capable of weighing up to 200 pounds with a girth as big as a telephone pole. When young, they will spend much of their time in the trees. However, as they mature, they transition to mainly ground-dwelling. They are also excellent swimmers and can stay submerged for up to 30 minutes before surfacing for air.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                        <br><br>
+                        - Burmese pythons are carnivores, surviving primarily on small mammals and birds. They have poor eyesight and stalk prey using chemical receptors in their tongues and heat sensors along the jaws. They kill by constriction, grasping a victim with their sharp teeth, coiling their bodies around the animal, and squeezing until it suffocates. They have stretchy ligaments in their jaws that allow them to swallow all their food whole. Burmese pythons are cold-blooded and adapted to the warm weather of the subtropics of South Asia using a unique form of thermoregulation, a homeostatic process that maintains a steady internal body temperature despite changes in external conditions.
+                        <br>                  
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                        <br><br>
+                        - Burmese pythons are solitary animals and are generally only seen together during spring mating. Females lay clutches of up to 100 eggs, which they incubate for two to three months. To keep their eggs warm, they continually contract or shiver their muscles to raise the temperature around the eggs by several degrees. Once the hatchlings use their egg tooth to cut their way out of their eggs, there is no further maternal care. The newly hatched specimens will often remain inside their egg until they are ready to complete their first shedding of skin, after which they hunt for their first meal.
+                        <br>
+                        </p>
+                      <label class="next-btn" for="r5">Next</label>
+                  </div>
+              </div>
+              </div>
+              </div>
+        
+          <p class="endingpara" style="color: white;">These animals have various unique features and adaptations that help them survive in their respective environments.</p>
+    </div>
+  
+  <!-- Button to scroll back to the top -->
+  <button data-popup-id="rainforest-animal-popup" class="popup-button-rainforest">SCROLL UP</button>
+      </div>
+        
+  <!-- Script to add event listeners -->
+  <script src="popup.js"> </script>
+  
+    <div class="container reveal">
+        <div class="image-padding-size">
+            <div class="img_container grid"><!-- Container for the image gallery -->
+                <!-- Add images and links to rainforest animals here -->
+                <div id="Okapi" class="img_item row-2 col-3">
+                    <a href="https://en.wikipedia.org/wiki/Okapi"><img src="assets/images/RAINFANIMALS/okapi2.jpg" alt="Okapi"><h3>Okapi</h3></a>
+                </div>
+  
+                <div id="HornBill" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Hornbill"><img src="assets/images/RAINFANIMALS/horny.jpg" alt="hornbill"><h3>Hornbill</h3></a>
+                </div>
+          
+                <div id="TreeFrog" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Agalychnis_callidryas"><img src="assets/images/RAINFANIMALS/frog2.jpg" alt="red eyed tree frog"><h3>Red-Eyed Tree Frog</h3></a>
+                </div>
+          
+                <div id="Capybara" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Capybara"><img src="assets/images/RAINFANIMALS/capibara2.jpg" alt="Capybara"><h3>Capybara</h3></a>
+               </div>
+               
+                 <div id="Python" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Burmese_python"><img src="assets/images/RAINFANIMALS/python.jpg" alt="Burmese Python"><h3>Burmese Python</h3></a>
+            </div>
+        </div>
+    </div>
+  </div>
+  </div>
+
+<!-- Arctic Info Section -->
+<div id = "arctic" class="arctic-container">
+  <section class="Arctic_bg">
+      
+      <div class="arctic-pic">
+          <div class="about-text">
+            <div class="title reveal">
+              <h2 style="color: #fff">Arctic Habitat</h2>
+              <h5 style="color: #a0a0a0">A Place Further Than The Universe</h5>
+            </div>
+              <p class="reveal" style="color: #d0d0d0;">The Arctic is the northernmost region of Earth, centered on the North Pole. It is known for its extreme cold, with vast expanses of ice and snow. </p>
+              <p class="reveal" style="color: #d0d0d0;">Despite its harsh conditions, the Arctic is home to a range of unique wildlife adapted to this frigid environment. 
+                These areas lying beyond the tree line comprise more than 10 percent of the Earth’s land surface. </p>
+                <p class="reveal" style="color: #d0d0d0;">DID YOU KNOW?! There is a difference  between Arctic and Antarctic? The Arctic is an ocean, covered by a thin layer of perennial sea ice and surrounded by land. Antarctica, on the other hand, is a continent, covered by a very thick ice cap and surrounded by a rim of sea ice and the Southern Ocean.</p>
+                  <button onclick="openArcticPopup()" class="popup-button-arctic">Arctic Animals Info</button>
+                </div>
+      </div>
+  </section>
+</div>
+
+<div class="arctic-animal-container">
+  <!-- Add the header text for the animals section -->
+  <div class="arctic">
+    <h1 class ="text_arctic">
+      
+      LEARN MORE
+    </h1>
+    </div>
+
+  <div class="animal-info">
+      
+    <div id="arctic-animal-popup" class="popup">
+    <span class="close-popup"  onclick="closeArcticPopup()">&times;</span>
+    
+    <div class="articpopup-content">
+      <h2 style="color: #fff">Arctic Animals Information</h2>
+      <div class="book">
+          <input type="checkbox" id="ar1">
+          <input type="checkbox" id="ar2">
+          <input type="checkbox" id="ar3">
+          <input type="checkbox" id="ar4">
+          <input type="checkbox" id="ar5">
+          <div id="cover"><img src="assets/images/ARCTICANIMALS/polarbear.jpg"></div>
+          <div class="flip-book">
+              <div class="flip" id="c1">
+                  <div class="back">
+                      <img src="assets/images/ARCTICANIMALS/penguin.jpg">
+                      <div class="button">
+                        <label class="Back-btn" for="ar1">Back</label>
+                      </div>
+                  </div>
+                  <div class="articfront">
+                    <h2>Polar Bear</h2>
+                    <p style="color: #d0d0d0;">
+                      <id style="color: rgb(113, 255, 113);">Common Name:</id>  Polar Bear<br>
+                      <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Ursus maritimus
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Type:</id> Mammal<br>
+                      <id style="color: rgb(113, 255, 113);">Diet:</id> Carnivore <br>
+                      <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 25 to 30 years<br>
+                      <id style="color: rgb(113, 255, 113);">Size:</id> Head and body: 7.25 to 8 feet; tail: 3 to 5 inches<br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">What is a Polar Bear?</id><br><br>
+                      - Polar bears roam the Arctic ice sheets and swim in that region's coastal waters. They are very strong swimmers, and their large front paws, which they use to paddle, are slightly webbed. Some polar bears have been seen swimming hundreds of miles from land—though they probably cover most of that distance by floating on sheets of ice.
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                      <br><br>
+                      - Polar bears live in one of the planet's coldest environments and depend on a thick coat of insulated fur, which covers a warming layer of fat. Fur even grows on the bottom of their paws, which protects against cold surfaces and provides a good grip on ice. The bear's stark white coat provides camouflage in surrounding snow and ice. But under their fur, polar bears have black skin—the better to soak in the sun's warming rays.
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                      <br><br>
+                      - Females den by digging into deep snow drifts, which provide protection and insulation from the Arctic elements. They give birth in winter, usually to twins. Young cubs live with their mothers for some 28 months to learn the survival skills of the far north. Females aggressively protect their young, but receive no help from their solitary male mates. In fact, male polar bears may even kill young of their species.
+                        Polar bears are attractive and appealing, but they are powerful predators that do not typically fear humans, which can make them dangerous. Near human settlements, they often acquire a taste for garbage, bringing bears and humans into perilous proximity.
+                      <br>
+                      </p>
+                      <label class="next-btn" for="ar1">Next</label>
+                  </div>
+              </div>
+              
+                  <div class="flip" id="c2">
+                  <div class="back">
+                      <img src="assets/images/ARCTICANIMALS/seal.jpg">
+                      <div class="button">
+                        <label class="Back-btn" for="ar2">Back</label>
+                      </div>
+                  </div>
+                  <div class="articfront">
+                      <h2>Penguin</h2>
+                      <p style="color: #d0d0d0;">
+                        <id style="color: rgb(113, 255, 113);">Common Name:</id> Penguin<br>
+                        <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Spheniscidae <br>
+                        <id style="color: rgb(113, 255, 113);">Type:</id> Bird<br>
+                        <id style="color: rgb(113, 255, 113);">Diet:</id> Carnivore <br>
+                        <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 15-20 years<br>
+                        <id style="color: rgb(113, 255, 113);">Size:</id> 16-45 inches<br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">What is a Penguin?</id><br><br>
+                        - Penguins are flightless seabirds that live almost exclusively below the equator. Some island-dwellers can be found in warmer climates, but most—including emperor, adélie, chinstrap, and gentoo penguins—reside in and around icy Antarctica. A thick layer of blubber and tightly-packed, oily feathers are ideal for colder temperatures.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                        <br><br>
+                        - While penguins can’t fly, their stiff flippers, webbed feet, and sleek shape make them expert swimmers. In fact, they spend most of their lives in the ocean and do nearly all of their hunting for krill, squid, and crabs underwater. They can swim about 15 miles an hour, and when they want to go faster, they often porpoise, or leap out of the water as they swim.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                        <br><br>
+                        - Penguins come ashore to lay their eggs and raise their chicks. Most penguins stay with their mate for many years and lay only one or two eggs at a time. Parents take turns keeping their eggs warm, and when they hatch, feeding and protecting the chicks. For a few weeks each year, thousands of baby birds wait together while their parents forage for food. When mother and father return, chicks listen for the unique audio frequency of their parents’ call, allowing them to reunite in a large, noisy crowd.
+                         Soon after the chicks fledge, parents will begin molting. Unlike some birds that shed a few feathers at a time, penguins lose all their feathers at once during a process called catastrophic molt. They condense this process to just a few weeks because they must fast during this time—they can’t hunt
+                      </p>
+                      <label class="next-btn" for="ar2">Next</label>
+                  </div>
+              </div>
+  
+                 
+                  <div class="flip" id="c3">
+                  <div class="back">
+                      <img src="assets/images/ARCTICANIMALS/walrus.jpg">
+                      <div class="button">
+                        <label class="Back-btn" for="ar3">Back</label>
+                      </div>
+                  </div>
+                  <div class="articfront">
+                      <h2>Seal</h2>
+                      <p style="color: #d0d0d0;">
+                        <id style="color: rgb(113, 255, 113);">Common Name:</id> Seal<br>
+                        <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Pinnipedia <br>
+                        <id style="color: rgb(113, 255, 113);">Type:</id> Mammal<br>
+                        <id style="color: rgb(113, 255, 113);">Diet:</id> Carnivore <br>
+                        <id style="color: rgb(113, 255, 113);">Average Life Span:</id> Up to 30 years<br>
+                        <id style="color: rgb(113, 255, 113);">Size:</id>3 feet to 20 feet long<br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">What is a Seal?</id><br><br>
+                        - There are 33 species of pinnipeds alive today, most of which are known as seals. Pinnipedia is made up of three main groups: The walrus, which is the only living member of the family Odobenidae; the eared seals of Otariidae, including numerous kinds of fur seal and sea lion; and the earless seals, known as true seals or Phocidae. Despite the name, earless seals have ears—they’re just hidden beneath the surface of their skin.
+                           Pinnipeds can be found on every continent on Earth, though most species occur in cold-water environments. Thick layers of fat, also known as blubber, keep the animals warm, in addition to dense fur. Walruses are the exception to the rule, as these large, tusked pinnipeds have nearly hairless bodies.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                        <br><br>
+                        - Ringed seals build caves in the snow and create holes in the ice that give them access to the ocean. If that snow melts earlier than usual, it will put the animals at greater risk of predation from polar bears.While there are many differences among the species, all seals have feet shaped like fins. In fact, the word pinniped means "fin-footed" in Latin. Those fin-shaped feet make them supreme swimmers, and all pinnipeds are considered semi-aquatic marine mammals. This means they must spend some part of their lives on land or sea ice, usually during the mating and birthing seasons.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                        <br><br>
+                        -  Most male and female harbor seals become sexually active at ages three to six or seven years. Adult females usually mate and give birth to one pup every year; the size of a pup can be 1/4 to 1/3 that of the mother. The gestation period is 9-11 months.
+                      </p>
+                      <label class="next-btn" for="ar3">Next</label>
+                  </div>
+              </div>
+  
+               <div class="flip" id="c4">
+                  <div class="back">
+                      <img src="assets/images/ARCTICANIMALS/fox.jpg">
+                      <div class="button">
+                        <label class="Back-btn" for="ar4">Back</label>
+                      </div>
+                  </div>
+                  <div class="articfront">
+                      <h2>Walrus</h2>
+                      <p style="color: #d0d0d0;">
+                        <id style="color: rgb(113, 255, 113);">Common Name:</id> Walrus<br>
+                        <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Odobenus rosmarus <br>
+                        <id style="color: rgb(113, 255, 113);">Type:</id> Mammal<br>
+                        <id style="color: rgb(113, 255, 113);">Diet:</id> Carnivore <br>
+                        <id style="color: rgb(113, 255, 113);">Average Life Span:</id> Up to 40 years<br>
+                        <id style="color: rgb(113, 255, 113);">Size:</id>7.25 to 11.5 feet<br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">What is a Walrus?</id><br><br>
+                        - The mustached and long-tusked walrus is most often found near the Arctic Circle, lying on the ice with hundreds of companions. These marine mammals are extremely sociable, prone to loudly bellowing and snorting at one another, but are aggressive during mating season. With wrinkled brown and pink hides, walruses are distinguished by their long white tusks, grizzly whiskers, flat flipper, and bodies full of blubber.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                        <br><br>
+                        - The walrus' other characteristic features are equally useful. As their favorite meals, particularly shellfish, are found near the dark ocean floor, walruses use their extremely sensitive whiskers, called mustacial vibrissae, as detection devices. Their blubbery bodies allow them to live comfortably in the Arctic region—walruses are capable of slowing their heartbeats in order to withstand the polar temperatures of the surrounding waters.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                        <br><br>
+                        - Walruses mate in the water during the winter months (January-March). However, delayed implantation of the fertilized egg is suspended from further development for several months, resulting in a total gestation period of 15 months, the longest of all the pinnipeds.
+                      </p>
+                      <label class="next-btn" for="ar4">Next</label>
+                  </div>
+              </div>
+  
+               <div class="flip" id="c5">
+                  <div class="back">
+                      <img src="assets/images/arctic_card.png">
+                      <div class="button">
+                        <label class="Back-btn" for="ar5">Back</label>
+                      </div>
+                  </div>
+                  <div class="articfront">
+                    <h2>Arctic Fox</h2>
+                    <p style="color: #d0d0d0;">
+                      <id style="color: rgb(113, 255, 113);">Common Name:</id> Arctic Fox<br>
+                      <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Vulpes lagopus<br>
+                      <id style="color: rgb(113, 255, 113);">Type:</id> Mammal<br>
+                      <id style="color: rgb(113, 255, 113);">Diet:</id> Omnivore <br>
+                      <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 3 to 6 years<br>
+                      <id style="color: rgb(113, 255, 113);">Size:</id> Head and body: 18 to 26.75 inches; tail: up to 13.75 inchest<br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">What is an Arctic fox?</id><br><br>
+                      - The arctic fox is an incredibly hardy animal that can survive frigid Arctic temperatures as low as –58°F in the treeless lands where it makes its home. It has furry soles, short ears, and a short muzzle—all-important adaptations to the chilly clime. Arctic foxes live in burrows, and in a blizzard they may tunnel into the snow to create shelter.
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                      <br><br>
+                      - Arctic foxes have beautiful white (sometimes blue-gray) coats that act as very effective winter camouflage. The natural hues allow the animal to blend into the tundra's ubiquitous snow and ice. When the seasons change, the fox's coat turns as well, adopting a brown or gray appearance that provides cover among the summer tundra's rocks and plants.
+                      <br>
+                      <br>
+                      <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                      <br><br>
+                      - Mating occurs in early March and early April. Gestation lasts 52 days. Litters average seven pups but may contain as many as 15 pups. Arctic foxes are monogamous in the wild.
+                    </p>
+                      <label class="next-btn" for="ar5">Next</label>
+                  </div>
+              </div>
+              </div>
+              </div>
+          <p class="endingpara" style="color: white;">These animals have various unique features and adaptations that help them survive in their respective environments.</p>
+        </div>
+  <!-- Button to scroll back to the top -->
+  <button data-popup-id="arctic-animal-popup" class="popup-button-arctic">SCROLL UP</button>
+  </div>
+
+
+
+<!-- Script to add event listeners -->
+<script src="popup.js"> </script>
+
+
+  <div class="container reveal">
+      <div class="image-padding-size">
+          <div class="img_container grid"><!-- Container for the image gallery -->
+              <!-- Add images and links to Arctic animals here -->
+              <div id="PolarBear" class="img_item row-2 col-3">
+                  <a href="https://en.wikipedia.org/wiki/Polar_bear"><img src="assets/images/ARCTICANIMALS/polarbear2.jpg" alt="polar bear"><h3>Polar Bear</h3></a>
+              </div>
+
+              <div id="Penguin" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Penguin"><img src="assets/images/ARCTICANIMALS/penguin2.jpg" alt="penguin"><h3>Penguin</h3></a>
+              </div>
+        
+              <div id="Seal" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Earless_seal"><img src="assets/images/ARCTICANIMALS/seal2.jpeg" alt="Seal"><h3>Seal</h3></a>
+              </div>
+        
+              <div id="Walrus" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Walrus#:~:text=The%20walrus%20%28Odobenus%20rosmarus%29%20is%20a%20large%20pinniped,species%20in%20the%20family%20Odobenidae%20and%20genus%20Odobenus."><img src="assets/images/ARCTICANIMALS/walrus.jpg" alt="Walrus"><h3>Walrus</h3></a>
+             </div>
+            
+               <div id="ArticFox" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Arctic_fox"><img src="assets/images/ARCTICANIMALS/fox2.jpg" alt="Arctic Fox"><h3>Arctic Fox</h3></a>
+          </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Ocean Habitat Info Section -->
+<div id = "ocean" class="ocean-container">
+  <section class="Ocean_bg">
+      
+      <div class="ocean-pic">
+          <div class="about-text">
+            <div class="title reveal">
+              <h2 style="color: #00f">Ocean Habitat</h2>
+              <h5 style="color: #fff">Beneath The Waves</h5>
+              </div>
+              <p class="reveal" style="color: #bbd">More than half of Earth's surface is covered in salty ocean or sea water to be exact it cover nearly 71 percent of Earth's surface. </p>
+              <p class="reveal" style="color: #bbd">They contain almost 98 percent of all the water on Earth. The ocean is home to a diverse range of marine life, from the smallest plankton to the largest whales. </p>
+                <p class="reveal" style="color: #bbd">It plays a crucial role in regulating the Earth's climate and supporting various ecosystems. </p>
+                <p class="reveal" style="color: #bbd">DID YOU KNOW?! There is one world ocean, but it is divided into five main areas: the Pacific, the Atlantic, the Indian, the Arctic, and the Southern, or Antarctic.</p>
+              <button onclick="openOceanPopup()" class="popup-button-ocean">Aquatic Animals Info</button>
+            </div>
+      </div>
+  </section>
+</div>
+
+<div class="ocean-animal-container">
+  <!-- Add the header text for the animals section -->
+<div class ="ocean_learnmore">
+ <h3>LEARN MORE</h3>
+ <h3>LEARN MORE</h3>
+
+</div>
+
+  <div class="animal-info">
+    <div id="ocean-animal-popup" class="popup">
+      <span class="close-popup"  onclick="closeOceanPopup()">&times; </span>
+      <div class="Oceanpopup-content">
+        <h2 style="color: black;">Ocean Animals Information</h2>
+        <div class="book">
+            <input type="checkbox" id="o1">
+            <input type="checkbox" id="o2">
+            <input type="checkbox" id="o3">
+            <input type="checkbox" id="o4">
+            <input type="checkbox" id="o5">
+            <div id="cover"><img src="assets/images/OCEANANIMALS/orca.jpg"></div>
+            <div class="flip-book">
+                <div class="flip" id="d1">
+                    <div class="back">
+                        <img src="assets/images/OCEANANIMALS/octo.jpg">
+                        <div class="button">
+                          <label class="Back-btn" for="o1">Back</label>
+                        </div>
+                    </div>
+                    <div class="Oceonfront">
+                        <h2>Orca</h2>
+                        <p style="color: #d0d0d0;">
+                          
+                          <id style="color: rgb(113, 255, 113);">Common Name:</id> Orca (Killer Whale)<br>
+                          <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Orcinus orca<br>
+                          <id style="color: rgb(113, 255, 113);">Type:</id> Mammal<br>
+                          <id style="color: rgb(113, 255, 113);">Diet:</id> Carnivore<br>
+                          <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 50 to 80 years<br>
+                          <id style="color: rgb(113, 255, 113);">Size:</id> 23 to 32 feet<br><br>
+
+                          <id style="color: rgb(113, 255, 113);">What is an Orca?</id><br><br>
+                          - Orcas hunt everything from fish to walruses, seals, sea lions, penguins, squid, sea turtles, sharks, and even other kinds of whales. Depending on the season and where they are, their diet varies—some orcas eat more fishes and squid than seals and penguins. But wherever they are in any of the world's oceans, average-sized orcas may eat about 500 pounds (227 kilograms) of food a day. Orcas have many hunting techniques, and bumping seals off ice is just one of them.
+                          <br>
+                          <br>
+                          <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                          <br><br>
+                          - Orcas' teeth, numbering about 45 and each measuring about 3 inches (7.6 centimeters) long, are shaped for ripping and tearing prey. Orcas do not chew their food. They can swallow small seals and sea lions whole.Often referred to as wolves of the sea, orcas live and hunt together in cooperative pods, or family groups, much like a pack of wolves. They work together as they hunt. Groups of orcas cooperate to herd fish into a compact area so that they're easier to eat. They will also slap their tails onto the water's surface, causing a wave to wash prey, such as penguins or sea lions, off ice floes and into the water. Sometimes a pod of whales will join forces to surround a larger animal, such as a blue whale. They chase, bite, and wear it down until it becomes a meal.
+                          <br>
+                          <br>
+                          <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                          <br><br>
+                          - Depending on the geographic area studied, females are estimated to become sexually mature when they reach about 4.6 to 5.4 m (15 to 18 ft.) in length, which corresponds to ages between 7 to 16 years.Depending on the ecotype, males become sexually mature when they reach body lengths ranging from 5.2 to 6.4 m (17 to 21 ft.) in length, which corresponds to ages between 10 to 17.5 years (an average of about 15 years).
+                        </p>
+                        <label class="next-btn" for="o1">Next</label>
+                    </div>
+                </div>
+                <!-- Add similar code for other flip elements (p2, p3, p4, p5) -->
+    
+                    <div class="flip" id="d2">
+                    <div class="back">
+                        <img src="assets/images/OCEANANIMALS/horse.jpg">
+                        <div class="button">
+                          <label class="Back-btn" for="o2">Back</label>
+                        </div>
+                    </div>
+                    <div class="Oceonfront">
+                        <h2>Octopus</h2>
+                        <p style="color: #d0d0d0;">
+                          <id style="color: rgb(113, 255, 113);">Common Name:</id>  Octopus<br>
+                          <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Octopus vulgaris<br>
+                          <id style="color: rgb(113, 255, 113);">Type:</id> Invertebrates<br>
+                          <id style="color: rgb(113, 255, 113);">Diet:</id> Carnivore<br>
+                          <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 1 to 2 years<br>
+                          <id style="color: rgb(113, 255, 113);">Size:</id> 12 to 36 inches<br><br>
+
+                          <id style="color: rgb(113, 255, 113);">What is an Octopus?</id><br><br>
+                          - Most octopuses stay along the ocean’s floor, although some species are pelagic, which means they live near the water’s surface. Other octopus species live in deep, dark waters, rising from below at dawn and dusk to search for food. Crabs, shrimps, and lobsters rank among their favorite foods, though some can attack larger prey, like sharks. Octopuses typically drop down on their prey from above and, using powerful suctions that line their arms, pull the animal into their mouth.
+                          <br>
+                          <br>
+                          <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                          <br><br>
+                          - The octopus performs its famous backward swim by blasting water through a muscular tube on the body called a siphon. Octopuses also crawl along the ocean’s floor, tucking their arms into small openings to search for food. Seals, whales, and large fish prey on octopuses. If threatened, octopuses shoot an inky fluid that darkens the water, confusing the aggressor.While octopuses are incredibly adaptable within their aquatic realm, their specialized adaptations make it challenging for them to survive in drastically different environments. Evolution has shaped these creatures to excel in the ocean, and they have not developed the necessary adaptations to thrive outside of it.
+                          <br>
+                          <br>
+                          <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                          <br><br>
+                          - A juvenile octopus grows at a rapid rate, perhaps because of its short life span. Extremely effective at turning the food it eats into body mass, a young octopus increases i­ts weight by 5 percent each day. By the end of its life, an octopus will weigh one-third as much as all the food it has eaten [source: The Economist]. The common octopus only lives an average of three to five years, though, so it doesn't have much time to waste.Once the octopus reaches adulthood, it will eventually get the urge to mate. As with most creatures, the octopus's main purpose in life is to reproduce.
+                        </p>
+                        <label class="next-btn" for="o2">Next</label>
+                    </div>
+                </div>
+    
+                   
+                    <div class="flip" id="d3">
+                    <div class="back">
+                        <img src="assets/images/OCEANANIMALS/angler.jpg">
+                        <div class="button">
+                          <label class="Back-btn" for="o3">Back</label>
+                        </div>
+                    </div>
+                    <div class="Oceonfront">
+                        <h2>Seahorse</h2>
+                        <p style="color: #d0d0d0;">
+                          <id style="color: rgb(113, 255, 113);">Common Name:</id> Seahorse<br>
+                          <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Hippocampus<br>
+                          <id style="color: rgb(113, 255, 113);">Type:</id> Fish<br>
+                          <id style="color: rgb(113, 255, 113);">Diet:</id> Carnivore<br>
+                          <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 1 to 5 years<br>
+                          <id style="color: rgb(113, 255, 113);">Size:</id> 0.6 to 14 inches<br><br>
+
+                          <id style="color: rgb(113, 255, 113);">What is a Seahorse?</id><br><br>
+                          - You’ll find seahorses in the world’s tropical and temperate coastal waters.Seahorses don’t have stomachs; therefore they need to eat regularly since their food goes straight to their digestive systems. Young seahorses consume about 3,000 pieces of food daily. Adult seahorses are always grazing and can eat up to 50 times every day.
+                          <br><br>
+                          <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                          <br><br>
+                          - Swimming upright among seaweed and other plants. Seahorses use their dorsal fins (back fins) to propel slowly forward. To move up and down, seahorses adjust the volume of air in their swim bladders, which is an air pocket inside their bodies. Many seahorse species exhibit monogamous behavior, forming long-term pair bonds with their mates. This behavior can increase their chances of reproductive success by ensuring the survival of their offspring.
+                          <br>
+                          <br>
+                          <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                          <br><br>
+                          - A female seahorse lays dozens, sometimes hundreds, of eggs in a pouch on the male seahorse’s abdomen. After seahorse moms make their eggs, they pass them over to the males to carry until the young are released. When it’s time to give birth, the dad pumps water through the pouch, releasing hundreds of fry, or baby seahorses, in just a few minutes. Called a brood pouch, it resembles a kangaroo’s pouch for carrying young. Seahorses young hatch after up to 45 days in the brood pouch. The baby seahorses, each about the size of a jelly bean, find other baby seahorses and float together in small groups, clinging to each other using their tails. Unlike kangaroos, baby seahorses do not return to the pouch. They must find food and hide from predators as soon as they’re born.
+                        </p>
+                        <label class="next-btn" for="o3">Next</label>
+                    </div>
+                </div>
+    
+                 <div class="flip" id="d4">
+                    <div class="back">
+                        <img src="assets/images/OCEANANIMALS/blob.jpg">
+                        <div class="button">
+                          <label class="Back-btn" for="o4">Back</label>
+                        </div>
+                    </div>
+                    <div class="Oceonfront">
+                        <h2>Anglerfish</h2>
+                        <p style="color: #d0d0d0;">
+                          <id style="color: rgb(113, 255, 113);">Common Name:</id> Anglerfish<br>
+                          <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Lophiiformes<br>
+                          <id style="color: rgb(113, 255, 113);">Type:</id> Fish<br>
+                          <id style="color: rgb(113, 255, 113);">Diet:</id> Carnivore<br>
+                          <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 24 years (wild)<br>
+                          <id style="color: rgb(113, 255, 113);">Size:</id> 8 to 40 inches<br><br>
+
+                          <id style="color: rgb(113, 255, 113);">What is an Anglerfish?</id><br><br>
+                          - There are more than 200 species of anglerfish, most of which live in the murky depths of the Atlantic and Antarctic oceans, up to a mile below the surface, although some live in shallow, tropical environments. Generally dark gray to dark brown in color, they have huge heads and enormous crescent-shaped mouths filled with sharp, translucent teeth. Some angler fish can be quite large, reaching 3.3 feet in length. Most however are significantly smaller, often less than a foot.
+                          <br><br>
+                          <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                          <br><br>
+                          - Their most distinctive feature, worn only by females, is a piece of dorsal spine that protrudes above their mouths like a fishing pole—hence their name. Tipped with a lure of luminous flesh this built-in rod baits prey close enough to be snatched. Their mouths are so big and their bodies so pliable, they can actually swallow prey up to twice their own size.
+                          <br>
+                          <br>
+                          <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                          <br><br>
+                          - Although they form these tight bonds at the confluence, they are reproduced through external drainage. The female releases her eggs in a deep water column and the male immediately extracts her semen, which detects and fertilizes the eggs. This is the way of angler fish reproduction.
+                        </p>
+                        <label class="next-btn" for="o4">Next</label>
+                    </div>
+                </div>
+    
+                 <div class="flip" id="d5">
+                    <div class="back">
+                        <img src="assets/images/aqua_card.png">
+                        <div class="button">
+                          <label class="Back-btn" for="o5">Back</label>
+                        </div>
+                    </div>
+                    <div class="Oceonfront">
+                        <h2>Blobfish</h2>
+                        <p style="color: #d0d0d0;">
+                          <id style="color: rgb(113, 255, 113);">Common Name:</id> Blobfish<br>
+                          <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Psychrolutes marcidus<br>
+                          <id style="color: rgb(113, 255, 113);">Type:</id> Fish<br>
+                          <id style="color: rgb(113, 255, 113);">Diet:</id> Omnivore<br>
+                          <id style="color: rgb(113, 255, 113);">Average Life Span:</id> Unknown<br>
+                          <id style="color: rgb(113, 255, 113);">Size:</id> About 1 foot long<br><br>
+
+                          <id style="color: rgb(113, 255, 113);">What is a Blobfish?</id><br><br>
+                          - Blobfish are usually found in dark, cold habitats deep at the bottom of the Atlantic, Indian, and Pacific oceans, between 1,970 and 3,940 feet deep. Most known marine species live in the surface layer of the ocean—above around 650 feet—where there is still light. Blobfish is a pale pink gelatinous blob with a droopy, downturned mouth and large, sagging nose. After being named the world’s ugliest animal in 2013, this hideous fish soared to fame—with memes, songs, soft toys, and even TV characters created in its honor.
+                          <br><br>
+                          <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                          <br><br>
+                          - Blobfish look almost unrecognizable underwater: These tadpole-shaped fish have bulbous heads, large jaws, tapered tails, and feathery pectoral fins. Rather than scales, they have loose, flabby skin. They don’t have strong bones or thick muscle—instead, they rely on the water pressure to hold their shape together. That’s why blobfish collapse into a squishy mush when they are pulled up to the surface.
+                          <br><br>
+                          <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                          <br><br>
+                          - There are few predators in the deep sea, so these fish reproduce and grow quite slowly. Very little is known about the reproductive behaviors of blobfish because research is quite difficult. Females will lay thousands of eggs on the sea floor. One of the parents guards the eggs, but scientists aren’t sure which one takes this duty.
+                        </p>
+                        <label class="next-btn" for="o5">Next</label>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <p class="endingpara" style="color: white;">These animals have various unique features and adaptations that help them survive in their respective environments.</p>
+            </div>
+    
+    <!-- Button to scroll back to the top -->
+  <button data-popup-id="ocean-animal-popup" class="popup-button-ocean">SCROLL UP</button>
+  </div>
+</div>
+
+<!-- Script to add event listeners -->
+<script src="popup.js"> </script>
+
+
+  <div class="container reveal">
+      <div class="image-padding-size">
+          <div class="img_container grid"><!-- Container for the image gallery -->
+              <!-- Add images and links to ocean animals here -->
+              <div id="Orca" class="img_item row-2 col-3">
+                  <a href="https://en.wikipedia.org/wiki/Orca"><img src="assets/images/OCEANANIMALS/orca.jpg" alt="Orca"><h3>Orca</h3></a>
+              </div>
+
+              <div id="Octopus" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Octopus"><img src="assets/images/OCEANANIMALS/octo.jpg" alt="Octopus"><h3>Octopus</h3></a>
+              </div>
+        
+              <div id="SeaHorse" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Seahorse"><img src="assets/images/OCEANANIMALS/horse.jpg" alt="Sea Horse"><h3>Sea Horse</h3></a>
+              </div>
+        
+              <div id="AnglerFish" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Anglerfish"><img src="assets/images/OCEANANIMALS/angler.jpg" alt="Angler Fish"><h3>Angler Fish</h3></a>
+             </div>
+            
+               <div id="BlobFish" class="img_item row-1 col-2"><a href="https://en.wikipedia.org/wiki/Psychrolutidae"><img src="assets/images/OCEANANIMALS/blob.jpg" alt="Blob Fish"><h3>Blob Fish</h3></a>
+          </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Grassland Habitat Info Section -->
+<div id = "grassland" class="grassland-container">
+  <section class="GrassLand_bg">
+    
+      <div class="grassland-pic">
+          <div class="about-text">
+            <div class="title reveal">
+              <h2 style="color: #6B8E23">Grassland Habitat</h2>
+              <h5 style="color: #fff">Meadows In The Wind</h5>
+            </div>
+              <p  class="reveal"  style="color: #8FBC8F">The grassland biome is made up of large open areas of grasses. It is home to various herbivorous and carnivorous animals that have adapted to the vast, open spaces and rich grassy landscapes. </p>
+              <p  class="reveal"  style="color: #8FBC8F">Grasslands occur naturally on all continents except Antarctica and are found in most ecoregions of the Earth. </p>
+                <p  class="reveal" style="color: #8FBC8F">DID YOU KNOW?! Grasslands are one of the largest biomes on earth and dominate the landscape worldwide. There are different types of grasslands: natural grasslands, semi-natural grasslands, and agricultural grasslands. They cover 31–69% of the Earth's land area.</p>
+              <button onclick="openGrasslandPopup()" class="popup-button-grassland">Grassland Animals Info</button>
+            </div>
+      </div>
+  </section>
+</div>
+
+<div class="grassland-animal-container">
+
+  <div class="grassland_learnmore">
+    <h1 class ="text_grassland">
+      
+      LEARN MORE
+    </h1>
+    </div>
+
+  <div class="animal-info">
+    <div id="grassland-animal-popup" class="popup">
+      <span class="close-popup"  onclick="closeGrasslandPopup()">&times; </span>
+      <div class="Grasslandpopup-content">
+        <h2 style="color: white;">GrassLand Animals Information</h2>
+        <div class="book">
+            <input type="checkbox" id="g1">
+            <input type="checkbox" id="g2">
+            <input type="checkbox" id="g3">
+            <input type="checkbox" id="g4">
+            <input type="checkbox" id="g5">
+            <div id="cover"><img src="assets/images/GRASSLANDANIMALS/prong.jpg"></div>
+            <div class="flip-book">
+                <div class="flip" id="e1">
+                    <div class="back">
+                        <img src="assets/images/GRASSLANDANIMALS/zebra.jpg">
+                        <div class="button">
+                          <label class="Back-btn" for="g1">Back</label>
+                        </div>
+                    </div>
+                    <div class="Grasslandfront">
+                        <h2 style="color: white;"> Pronghorn
+                        </h2>
+                        <p style="color: #d0d0d0;">
+                          <id style="color: rgb(113, 255, 113);">Common Name:</id> Pronghorn
+                          <br>
+                          <id style="color: rgb(113, 255, 113);">Scientific Name:</id>  Antilocapra Americana <br>
+                          <id style="color: rgb(113, 255, 113);">Type:</id> Mammal <br>
+                          <id style="color: rgb(113, 255, 113);">Diet:</id> Herbivores
+                          <br>
+                          <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 10 years<br>
+                          <id style="color: rgb(113, 255, 113);">Size:</id> 4.5 feet long, 3 feet tall, and weigh between 90 and 150 pounds.<br>
+                        
+                          <br>
+                          <id style="color: rgb(113, 255, 113);">What is a Pronghorn?</id><br><br>
+                          - Pronghorns are found in open prairie and desert habitats in western North America. They are especially fond of wildflowers and fruits. This animal has a deer-like body, and there are over 1,000,000 individuals recorded.
+                          <br>
+                          <br>
+                          <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                          <br><br>
+                          - Pronghorns are built for speed, they are especially built for maximal predator evasion through running.
+                          <br>
+                          <br>
+                          <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                          <br><br>
+                          - Male pronghorns breed with multiple females within their territory. After mating, the females are pregnant throughout the winter and give birth in the spring. The females have either on or two fawns.
+                        </p>
+                        <label class="next-btn" for="g1">Next</label>
+                    </div>
+                </div>
+                <!-- Add similar code for other flip elements (p2, p3, p4, p5) -->
+    
+                    <div class="flip" id="e2">
+                    <div class="back">
+                        <img src="assets/images/GRASSLANDANIMALS/gir.jpg">
+                        <div class="button">
+                          <label class="Back-btn" for="g2">Back</label>
+                        </div>
+                    </div>
+                    <div class="Grasslandfront">
+                      <h2 style="color: white;"> Zebra
+                      </h2>
+                      <p style="color: #d0d0d0;">
+                        <id style="color: rgb(113, 255, 113);">Common Name:</id> Zebra
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Scientific Name:</id>  Equus Quagga<br>
+                        <id style="color: rgb(113, 255, 113);">Type:</id> Mammal <br>
+                        <id style="color: rgb(113, 255, 113);">Diet:</id> Herbivores
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 9 years<br>
+                        <id style="color: rgb(113, 255, 113);">Size:</id> 4.10 to 5.25 feet at shoulder height<br>
+                      
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">What is a Zebra?</id><br><br>
+                        - They have a wide range in east and southern Africa. They usually live in treeless grasslands and savanna woodlands and are absent from deserts, rainforests, and wetlands. This species' habitat is shrinking, however, and they are now extinct in Burundi and Lesotho. Specifically, zebras prefer to eat grass that is green and short, but in a pinch, they’ll eat all kinds of grass. Almost 90% of their diet is made up of grass. They also eat leaves and twigs, and some zebras eat herbs and shrubs, especially at times when grass is scarce. Closely related to horses, zebras have thick bodies, thin legs, a tufted tail, and a long head and neck sporting a short mane. And their most famous feature is their brilliant black-and-white striped coat. Zebras’ population are believed to be around 600,000.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                        <br><br>
+                        - Scientists think their stripes serve as sunscreen and bug repellent, act as camouflage, letting them hide against a background, and help them recognize each other. Also, Zebra legs are long and slender, and very strong, which enables them to run up to 40 miles per hour to escape predators in a hunt.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                        <br><br>
+                        - Male zebras sexually mature at age 1 or 2, but do not reach social maturity—the capacity to seize or guard a female herd or territory—until 6 years old. Courtship and breeding last two days, with mating repeated every one to two hours. Once a female becomes pregnant, the gestation period lasts 13 months.
+                      </p>
+                        <label class="next-btn" for="g2">Next</label>
+                    </div>
+                </div>
+    
+                   
+                    <div class="flip" id="e3">
+                    <div class="back">
+                        <img src="assets/images/GRASSLANDANIMALS/tam.jpg">
+                        <div class="button">
+                          <label class="Back-btn" for="g3">Back</label>
+                        </div>
+                    </div>
+                    <div class="Grasslandfront">
+                      <h2 style="color: white;"> Giraffe
+                      </h2>
+                      <p style="color: #d0d0d0;">
+                        <id style="color: rgb(113, 255, 113);">Common Name:</id> Giraffe <br>
+                        <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Giraffa Camelopardalis<br>
+                        <id style="color: rgb(113, 255, 113);">Type:</id> Mammal <br>
+                        <id style="color: rgb(113, 255, 113);">Diet:</id> Herbivores <br>
+                        <id style="color: rgb(113, 255, 113);">Average Life Span:</id> 25 years<br>
+                        <id style="color: rgb(113, 255, 113);">Size:</id> Males range from 16-18 feet (4.8-5.5 m) tall and weigh as much as 4,200 pounds (1,900 kg); females reach 14-16 feet (4.3-4.8 m) tall and weigh up to 2,600 pounds (1,180 kg).
+                        <br>     
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">What is a Giraffe?</id><br><br>
+                        - Giraffes use both semi-arid savannah and savannah woodlands in Africa. They primarily eat the leaves and twigs of acacia, mimosa, and wild apricot trees. Giraffes’ legs and necks are extremely long. They have a short body, a tufted tail, a short mane, and short skin-covered horns. Giraffes have approximately 117,000 individuals.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                        <br><br>
+                        - A reticulated giraffe's height enables it to reach food sources that are out of reach for other animals. Long prehensile tongues and fleshy lips strip leaves from branches. The tongue allows the giraffe to reach leaves on thorny branches without scratching its face or eyes.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                        <br><br>
+                        - Sexual maturity of the female is at 48-60 months, the male is at 42 months. The giraffe mate at any time of the year with the gestation period being between 453 - 464 days. There is usually only one calf, very rarely twins. The male mounts the female from the rear and copulates with her.
+                      </p>
+                        <label class="next-btn" for="g3">Next</label>
+                    </div>
+                </div>
+    
+                 <div class="flip" id="e4">
+                    <div class="back">
+                        <img src="assets/images/GRASSLANDANIMALS/ant.jpg">
+                        <div class="button">
+                          <label class="Back-btn" for="g4">Back</label>
+                        </div>
+                    </div>
+                    <div class="Grasslandfront">
+                      <h2 style="color: white;"> Bison
+                      </h2>
+                      <p style="color: #d0d0d0;">
+                        <id style="color: rgb(113, 255, 113);">Common Name:</id> Bison <br>
+                        <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Bison bonasus.<br>
+                        <id style="color: rgb(113, 255, 113);">Type:</id> Mammal <br>
+                        <id style="color: rgb(113, 255, 113);">Diet:</id> Herbivores <br>
+                        <id style="color: rgb(113, 255, 113);">Average Life Span:</id>  10–20 years<br>
+                        <id style="color: rgb(113, 255, 113);">Size:</id> Male bison weigh up to 2,000 pounds and stand 6 feet tall, while females weigh up to 1,000 pounds and reach a height of 4-5 feet.
+                        <br>                  
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">What is a Bison?</id><br><br>
+                        - American bison live in river valleys and on prairies and plains. Typical habitat is open or semiopen grasslands, as well as sagebrush, semiarid lands, and scrublands. Some lightly wooded areas are also known historically to have supported bison. Bisons’ diet is made up of mostly grasses and sedges. It will occasionally eat berries and lichen. Bisons are characterized by a hump over the front shoulders and slimmer hindquarters. Both male and female bison have a single set of short, sharply pointed, hollow horns that curve outward and up from the sides of the massive head. Currently, there are approximately 20,500 Plains bison in conservation herds and an additional 420,000 in commercial herds.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                        <br><br>
+                        - Bison use their horns to protect themselves against predators, such as wolves, bears, and mountain lions. An attacked bison will charge, slash, and gore a predator if it can.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                        <br><br>
+                        - The dominant bulls (male bison) choose a female and defend her against other males through fighting. The males might butt heads or use their horns. Once the female agrees to mate, the pair mates several times. The cows (female bison) are pregnant throughout the fall, winter, and early spring.
+                      </p>
+                        <label class="next-btn" for="g4">Next</label>
+                    </div>
+                </div>
+    
+                 <div class="flip" id="e5">
+                    <div class="back">
+                        <img src="assets/images/grassland_card.png">
+                        <div class="button">
+                          <label class="Back-btn" for="g5">Back</label>
+                        </div>
+                    </div>
+                    <div class="Grasslandfront">
+                      <h2 style="color: white;"> Giant anteater
+                      </h2>
+                      <p style="color: #d0d0d0;">
+                        <id style="color: rgb(113, 255, 113);">Common Name:</id> Giant anteater <br>
+                        <id style="color: rgb(113, 255, 113);">Scientific Name:</id> Myrmecophaga tridactyla<br>
+                        <id style="color: rgb(113, 255, 113);">Type:</id> Mammal <br>
+                        <id style="color: rgb(113, 255, 113);">Diet:</id> omnivores <br>
+                        <id style="color: rgb(113, 255, 113);">Average Life Span:</id> around 15 years<br>
+                        <id style="color: rgb(113, 255, 113);">Size:</id> 182 to 217 cm<br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">What is a Giant anteater?</id><br><br>
+                        - The giant anteater is found in multiple habitats, including grassland and rainforest. It forages in open areas and rests in more forested habitats. It feeds primarily on ants and termites, using its fore claws to dig them up and its long, sticky tongue to collect them. Though giant anteaters live in overlapping home ranges, they are mostly solitary except during mother-offspring relationships, aggressive interactions between males, and when mating. Mother anteaters carry their offspring on their backs until weaning them.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Special Features for Survivability:</id>
+                        <br><br>
+                        - The giant anteater has no teeth and is capable of only very limited jaw movement. It relies on the rotation of the two halves of its lower jaw, held together by a ligament connecting the rami, to open and close its mouth. This is accomplished by its chewing muscles, which are relatively underdeveloped. Jaw depression creates an oral opening large enough for the slender tongue to flick out. It has a length of around 60 cm (24 in) and is more triangular in the back but becomes more rounded towards the front and ends in a rounded tip. The tongue has backward-curving papillae and is extremely moist due to the large salivary glands.
+                        <br>
+                        <br>
+                        <id style="color: rgb(113, 255, 113);">Reproduction:</id>
+                        <br><br>
+                        - Giant anteaters have a polygynous mating system, where one male mates with more than one female. Breeding depends on the region; they can breed either throughout the year or seasonally. Usually, the male and the female mate several times, remaining together for up to 3 days. The gestation period lasts 6 months, yielding a single baby.
+                      </p>
+                        <label class="next-btn" for="g5">Next</label>
+                    </div>
+                </div>
+                </div>
+                </div>
+            <p class="endingpara" style="color: white;">These animals have various unique features and adaptations that help them survive in their respective environments.</p>
+          </div>
+    <!-- Button to scroll back to the top -->
+  <button data-popup-id="grassland-animal-popup" class="popup-button-grassland">SCROLL UP</button>
+  </div>
+</div>
+
+<!-- Script to add event listeners -->
+<script src="popup.js"> </script>
+
+  <div class="container reveal">
+      <div class="image-padding-size">
+          <div class="img_container grid"><!-- Container for the image gallery -->
+              <!-- Add images and links to grassland animals here -->
+              <div id="Pronghorn" class="img_item row-2 col-3">
+                  <a href="grassland-animal-link"><img src="assets/images/GRASSLANDANIMALS/prong.jpg" alt="Pronghorn"><h3>Pronghorn</h3></a>
+              </div>
+
+              <div id="Zebra" class="img_item row-1 col-2"><a href=""><img src="assets/images/GRASSLANDANIMALS/zebra.jpg" alt="Zebra"><h3>Zebra</h3></a>
+              </div>
+        
+              <div id="Giraffe" class="img_item row-1 col-2"><a href=""><img src="assets/images/GRASSLANDANIMALS/gir.jpg" alt="Giraffe"><h3>Giraffe</h3></a>
+              </div>
+        
+              <div id="Bison" class="img_item row-1 col-2"><a href=""><img src="assets/images/GRASSLANDANIMALS/tam.jpg" alt="Bison"><h3>Bison</h3></a>
+             </div>
+            
+               <div id="GiantAnteater" class="img_item row-1 col-2"><a href=""><img src="assets/images/GRASSLANDANIMALS/ant.jpg" alt="Giant Anteater"><h3>Giant Anteater</h3></a>
+          </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<!--- QUIZ SECTION-->
+<div class="background-animation"> 
+ 
+<div class="app">
+ 
+  <h1>TEST YOUR KNOWLEDGE! <div id="question-count">Question <span id="current-question">1</span> of <span id="total-questions">5</span></div></h1>
+
+  <div class="quiz">
+      <h2 id="question"></h2>
+      <div id="answer-buttons">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+      </div>
+  </div>
+      <button id="next-btn">Next</button>
+  
+  <script src="quiz.js"></script>
+  <script src="responsive.js"></script>
+</div>
+</div>
+
+
+
+<!--- ABOUT US SECTION-->
+
+<section class="instructor reveal" id="instructor">
+  <br><br><p class="section-subtitle">The Team Behind HUBITAT</p>
+  <h2 class="section-title">Meet Our Team!</h2>
+
+  <div class="instructor-grid">
+
+  <div class="instructor-card">
+    <div class="instructor-img-box">
+      <a href="https://ibb.co/RGwnNcV"><img src="https://i.ibb.co/CpGd6QT/Elyssa.png" alt="Elyssa" border="0"></a>
+    </div>
+    <h4 class="instructor-name">Elyssa Mae Pasquil</h4>
+    <p class="instructor-title">Programmer & Researcher</p>
+  </div>
+
+  <div class="instructor-card">
+    <div class="instructor-img-box">
+      <a href="https://ibb.co/wJ4yqSQ"><img src="https://i.ibb.co/xm6hb1g/Kris.png" alt="Kris" border="0"></a>
+    </div>
+    <h4 class="instructor-name">Kristian Albert Manangan</h4>
+    <p class="instructor-title">Programmer & Researcher</p>
+  </div>
+
+  <div class="instructor-card">
+    <div class="instructor-img-box">
+      <a href="https://ibb.co/F7KFXkv"><img src="https://i.ibb.co/XJbqDfB/Adriane.png" alt="Adriane" border="0"></a>
+    </div>
+    <h4 class="instructor-name">Gilbert Adriane Tica</h4>
+    <p class="instructor-title">Programmer & Researcher</p>
+  </div>
+
+  <div class="instructor-card">
+    <div class="instructor-img-box">
+      <img src="https://i.ibb.co/hx6qnFT/Francis.jpg" alt="Francis">
+    </div>
+    <h4 class="instructor-name">Francis Lourence Mabiya</h4>
+    <p class="instructor-title">Programmer</p>
+  </div>
+
+  <div class="instructor-card">
+    <div class="instructor-img-box">
+      <a href="https://ibb.co/X8dXv3Q"><img src="https://i.ibb.co/HdM7kxS/Ivan.png" alt="Ivan" border="0"></a>
+    </div>
+    <h4 class="instructor-name">Ishaq Albani Domato</h4>
+    <p class="instructor-title">Researcher</p>
+  </div>
+
+  <div class="instructor-card">
+    <div class="instructor-img-box">
+      <a href="https://ibb.co/wdY0skN"><img src="https://i.ibb.co/hgC7f6R/Zachary.png" alt="Zachary" border="0"></a>
+    </div>
+    <h4 class="instructor-name">Zachary Dumadapat</h4>
+    <p class="instructor-title">Programmer & Researcher</p>
+  </div>
+
+  <div class="instructor-card">
+    <div class="instructor-img-box">
+      <a href="https://ibb.co/Wgm0Sph"><img src="https://i.ibb.co/dG8tnJT/Celvin.png" alt="Celvin" border="0"></a>
+    </div>
+    <h4 class="instructor-name">Rhey Celvin Gayo</h4>
+    <p class="instructor-title">Researcher</p>
+  </div>
+
+  <div class="instructor-card">
+    <div class="instructor-img-box">
+      <a href="https://ibb.co/rbrx7KM"><img src="https://i.ibb.co/SQCtsD0/JM.png" alt="JM" border="0"></a>
+    </div>
+    <h4 class="instructor-name">John Godwin Cervantes</h4>
+    <p class="instructor-title">Researcher</p>
+  </div>
+
+  <div class="instructor-card">
+    <div class="instructor-img-box">
+      <a href="https://ibb.co/wyJPD24"><img src="https://i.ibb.co/kK3wYPX/Kyle.png" alt="Kyle" border="0"></a>
+    </div>
+    <h4 class="instructor-name">Kyle Patrick Feliciano</h4>
+    <p class="instructor-title">Researcher</p>
+  </div>
+  </div>
+</section>
+
+  <!--- #FOOTER-->
+    <footer>
+      <div class="row">
+        <div class="col">
+          <img src="assets/images/LOGO.png" class="logo2">
+          <a href = "#" class = "hubitat">HUBITAT</a>
+          <p>HUBITAT is a place for your trusted resource for wildlife habitat exploration. 
+            Immerse yourself in a world of diverse ecosystems, get up close with fascinating inhabitants, 
+            and embark on a journey to uncover the secrets of our natural world.</p>
+        </div>
+
+        <div class="col">
+          <h3>Our Links <div class="underline"><span></span></div></h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#card">Habitats</a></li>
+            <li><a href="#animal">Animals</a></li>
+            <li><a href="#instructor">About Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col2">
+          <h3>Other Links<div class="underline"><span></span></div></h3>
+          <ul>
+            <li><a href="https://www.nationalgeographic.com/animals">National Geographic</a></li>
+            <li><a href="https://www.edzoocating.com/science-resources/best-animal-websites">EdZOOcating</a></li>
+            <li><a href="https://animalcorner.org/animals/">Animal's Corner</a></li>
+          </ul>
+        </div>
+
+        <div class="col3">
+          <h3>Email<div class="underline"><span></span></div></h3>
+          <p class="email-id">HubitatInfo@gmail.com</p>
+          <h4>+91 - 012345678</h4>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/natgeo"><i class = "fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/@NatGeoWild"><i class = "fab fa-youtube"></i></a>
+            <a href="https://twitter.com/NatGeo"><i class = "fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/natgeo/"><i class = "fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <hr>
+      <p class="copyright">HUBITAT © 2023 - All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
